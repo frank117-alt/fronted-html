@@ -1,0 +1,124 @@
+
+}
+.icono{
+   margin-bottom: 20%
+   background-color:blue;
+}
+.estile2{
+	color:#24C5E8;
+	margin-left:1%;
+	margin-right: 70%;
+	font-family: 'Lato', sans-serif;
+
+
+}
+.date{
+	color:#EF1D1D;
+}
+   
+.men{
+	background-color:blue; 
+
+}
+
+
+.superslider{
+	display: none;
+
+}
+.experimento{
+	column-count:2;
+	border:3px blue solid;
+	column-span:all;
+	column-width: 100%;
+}
+.pagination{
+  	display: inline-block;
+    
+}
+.pagination a{
+	color:black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+#site-search{
+	width: 100%;
+	font-size: 18px;
+	padding: 11px;
+	border: 1px solid #ddd;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+ * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .2s ease;
+}
+
+}
+#box {
+    display: inline-block;
+    margin-top: 15%;
+}
+input {
+    float: right;
+    border-radius: .2em;
+}
+input[type=search] {
+    background-color: #FFF;
+    border: 1px solid #ededed;
+    padding: 10px;
+    border-radius: 2px;
+    width: 200px;
+    outline: none;
+    margin-right: 7px;
+    transition: all .2s;
+}
+input[type=search]:focus {
+    width: 400px;
+}
+input[type=submit] {
+    background-color: #ce5043;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 37px;
+    border: 1px solid #a44035;
+    outline: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+}
+input[type=submit]:hover {
+    background: #a44035;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+}
+::-webkit-input-placeholder {
+    font-family:'Open Sans', sans-serif;
+}
+input[type=search]:focus {
+    border: 1px solid #ce5043;
+    padding-left: 40px;
+    background-position: 13px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+}
+.column{
+	width:33,333%;
+	float:left;
+
+}
+
